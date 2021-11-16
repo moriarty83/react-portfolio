@@ -2,7 +2,9 @@
 
 const Footer = (props) =>{
     return(
-        <div></div>
+        <footer class={props.mode}>
+            Hello World
+        </footer>
     )
 
 }
