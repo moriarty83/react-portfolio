@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Detail from "./Detail"
+import Detail from "./Detail";
 
 function Skill (props){
     const [classText, setClassText] = useState("detail hidden ")

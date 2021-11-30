@@ -1,14 +1,14 @@
 
-import Title from "./Title"
-import Detail from "./Detail"
-import Skill from "./Skill"
+import Title from "../Title"
+import Detail from "../Detail"
+import Skill from "../Skill"
 
 
 function Skills (props) {
 
     return(
-        <>
-        <Title title="Skills"/>
+        <div className="section">
+        <a id="skills"><Title title="Skills"/></a>
         <div class={"slide " + props.mode}>
             <div class={"inner-border "+ props.mode}>
             <div class="content table">
@@ -101,7 +101,7 @@ function Skills (props) {
             </div>
             </div>
         </div>
-        </>
+        </div>
     )
 }
 

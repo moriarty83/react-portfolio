@@ -5,11 +5,11 @@ const Header = (props) =>{
     return(
         <nav className={props.mode}>
             <img src="/icon.png" />
-            <a class={props.mode} href="#">About</a>
-            <a class={props.mode} href="#">Skills</a>
-            <a class={props.mode} href="#">Projects</a>
-            <a class={props.mode} href="#">Resume</a>
-            <a class={props.mode} href="#">Contact</a>
+            <a class={props.mode} href="#about">About</a>
+            <a class={props.mode} href="#skills">Skills</a>
+            <a class={props.mode} href="#projects">Projects</a>
+            <a class={props.mode} href="#resume">Resume</a>
+            <a class={props.mode} href="#contact">Contact</a>
         </nav>
     )
 }

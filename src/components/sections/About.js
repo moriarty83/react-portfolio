@@ -1,9 +1,9 @@
-import Title from "./Title"
+import Title from "../Title"
 
 function About (props) {
     return(
         <div className="section">
-        <Title title="About"/>
+        <a id="about"><Title title="About"/></a>
         <div class={"slide " + props.mode}>
             <div class={"inner-border "+ props.mode}>
             <div class="content">

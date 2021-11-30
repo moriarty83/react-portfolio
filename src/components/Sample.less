@@ -1,0 +1,109 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@moriarty83 
+wojtekmaj
+/
+react-pdf
+Public
+50
+5.2k549
+Code
+Issues
+98
+Pull requests
+8
+Discussions
+Actions
+Wiki
+Security
+Insights
+react-pdf/sample/parcel/Sample.less
+@wojtekmaj
+wojtekmaj Add support for Parcel bundler
+Latest commit 453d6c0 on Jan 25, 2018
+ History
+ 1 contributor
+64 lines (54 sloc)  1.04 KB
+   
+body {
+  margin: 0;
+  background-color: rgb(82, 86, 89);
+  font-family: Segoe UI, Tahoma, sans-serif;
+}
+
+.Example {
+  input, button {
+    font: inherit;
+  }
+
+  header {
+    background-color: rgb(50, 54, 57);
+    box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+    padding: 20px;
+    color: white;
+
+    h1 {
+      font-size: inherit;
+      margin: 0;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+
+    &__load {
+      margin-top: 1em;
+      color: white;
+    }
+
+    &__document {
+      margin: 1em 0;
+
+      .react-pdf {
+        &__Document {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        &__Page {
+          max-width: calc(~"100% - 2em");
+          box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+          margin: 1em;
+
+          canvas {
+            max-width: 100%;
+            height: auto !important;
+          }
+        }
+
+        &__message {
+          padding: 20px;
+          color: white;
+        }
+      }
+    }
+  }
+}
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
