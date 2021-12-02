@@ -16,7 +16,6 @@ const Main = (props) =>{
             <Projects className="section" mode={props.mode} />
             <Resume className="section" mode={props.mode} />
             <Contact className="section" mode={props.mode} />
-
         </main>
     )
 }
