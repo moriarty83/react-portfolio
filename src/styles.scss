@@ -51,11 +51,20 @@ nav {
   img {
     height: 3em;
     left: 0;
-    margin-left: 1em;
+    margin: 0em 1em 0em 1em;
   }
 
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .dropdown-links {
+    @media (min-width: 600px) {
+      display: none;
+    }
     position: fixed;
+    top: 3.5em;
     background-color: $palletgray;
     display: flex;
     flex-direction: column;
@@ -64,6 +73,12 @@ nav {
     border-radius: 5px;
 
     &.hidden {
+      display: none;
+    }
+  }
+
+  .main-link {
+    @media (max-width: 601px) {
       display: none;
     }
   }
