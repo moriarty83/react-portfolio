@@ -60,13 +60,12 @@ function Skills (props) {
                     
                     
                         <li>
-                        <Skill skill="React" content="Having deployed multiple React applications I've well versed in the use of Hooks, React Router, Styled Components and React Best Practices." />
-
+                            <Skill skill="React" content="Having deployed multiple React applications I've well versed in the use of Hooks, React Router, Styled Components and React Best Practices." />
                         </li>
                     
                     
                         <li>
-                        <Skill skill="Express" content="I relish a well organized Express App. With a clear place for M, V, & C and every C, M, & V in it's place." />
+                            <Skill skill="Express" content="I relish a well organized Express App. With a clear place for M, V, & C and every C, M, & V in it's place." />
                         </li>
                     
                     
@@ -113,7 +112,10 @@ function Skills (props) {
 
                         <li>Mongo DB</li>
                     
-                        <li>AWS</li>
+                        <li>
+                            <Skill skill="AWS" content="The application dashboard I built for Teddy the Dog Apparel is hosted on AWS and I have experience using it to host images that are served by Mongo DB." />
+
+                        </li>
                     
                         <li>Excel</li>
                     
