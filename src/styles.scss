@@ -175,10 +175,16 @@ main {
 
   padding: 1em;
 
-  width: 60%;
+  @media (min-width: 601px) {
+    width: 60%;
 
-  &.project {
-    width: 80%;
+    &.project {
+      width: 80%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    width: 85%;
   }
 
   &.dark {
@@ -346,8 +352,14 @@ main {
   width: 90%;
   .pdf-container {
     box-shadow: 0px 0px 20px $palletdarktan;
-    margin: 3em;
-    width: 100%;
+    @media (min-width: 601px) {
+      margin: 1em;
+      width: 100%;
+    }
+    @media (min-width: 601px) {
+      margin: 1em;
+      width: 80%;
+    }
   }
 }
 

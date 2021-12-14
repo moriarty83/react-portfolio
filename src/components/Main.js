@@ -6,6 +6,9 @@ import Resume from "./sections/Resume";
 import Contact from "./sections/Contact";
 
 
+
+
+
 const Main = (props) =>{
     console.log(props)
     return(
@@ -16,6 +19,7 @@ const Main = (props) =>{
             <Projects className="section" mode={props.mode} />
             <Resume className="section" mode={props.mode} />
             <Contact className="section" mode={props.mode} />
+
         </main>
     )
 }

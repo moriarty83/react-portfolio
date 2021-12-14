@@ -9,7 +9,7 @@ function Resume (props){
         <div className={"slide project " + props.mode}>
             <div className={"inner-border "+ props.mode}>
                 <div className="resume-div">
-                    <PDF />
+                    <img src='Resume.jpg' alt="C. Moriarty Resume" />
                 </div>
             </div>
         </div>
