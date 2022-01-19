@@ -1,9 +1,10 @@
 import Title from "../Title"
 import Fade from 'react-reveal/Fade';
-import { Zoom } from "react-reveal";
+import Zoom from "react-reveal";
 
 function About (props) {
     return(
+        <Zoom>
         <div className="section mb-1">
         
         
@@ -31,6 +32,7 @@ function About (props) {
             </div>
         </div>
         </div>
+        </Zoom>
     )
 }
 
