@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Detail from "./Detail";
 import { Zoom } from "react-reveal";
+import { Flip } from "react-reveal";
 
 function Skill (props){
     const [classText, setClassText] = useState("detail hidden ")

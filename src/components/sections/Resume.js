@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Title from '../Title';
 
 import Fade from 'react-reveal/Fade';
+import { Flip } from 'react-reveal';
 
 function Resume (props){
     return(
@@ -13,10 +14,12 @@ function Resume (props){
         </a>
         <div className={"slide project " + props.mode}>
             <div className={"inner-border "+ props.mode}>
-                <div className="resume-div">
-                    <h2>Click To View</h2>
-                    <a target="_blank" href='./Resume.pdf'><img src='Resume.jpg' alt="C. Moriarty Resume" /></a>
-                </div>
+                <Fade bottom>
+                    <div className="resume-div">
+                        <h2>Click To View</h2>
+                        <a target="_blank" href='./Resume.pdf'><img src='Resume.jpg' alt="C. Moriarty Resume" /></a>
+                    </div>
+                </Fade>
             </div>
         </div>
     </div>

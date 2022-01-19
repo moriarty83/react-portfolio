@@ -2,7 +2,7 @@ import Title from "../Title"
 import Detail from "../Detail"
 import Project from "../Project"
 import Fade from 'react-reveal/Fade';
-import { Zoom } from "react-reveal";
+
 
 function Projects (props){
     return(
@@ -13,6 +13,7 @@ function Projects (props){
                 </Fade></a>
             <div className={"slide project " + props.mode}>
                 <div className={"inner-border "+ props.mode}>
+                <div class="content table">
                     
                     <Project 
                         title="MyKitchen" 
@@ -43,6 +44,7 @@ function Projects (props){
                         description="Sol System Trivia is a simple, two players/one device trivia game about the solar system. Questions are generated through a headless API hosted on Contentful and the entire game exists on a single page, played without reloads."
                         technologies="TypeScript | Jquery | HTML | CSS | Headless API" 
                         image="./images/sol_trivia_mockup.jpg"/>
+                    </div>
                 </div>
             </div>
         </div>
