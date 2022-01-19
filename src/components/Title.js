@@ -1,5 +1,8 @@
+import Fade from 'react-reveal/Fade';
+
 function Title (props) {
     return(
+        
         <div class={"title " + props.mode}>
             <p>{props.title}</p>
         </div>

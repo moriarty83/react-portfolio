@@ -3,10 +3,16 @@ import Title from "../Title"
 import Detail from "../Detail"
 import Skill from "../Skill"
 
+import Fade from 'react-reveal/Fade';
+
 function Contact(props){
     return(
         <div className="section contact-section">
-            <a id="contact"><Title title="Contact"/></a>
+            <a id="contact">
+                <Fade left>
+                    <Title title="Contact"/>
+                </Fade>
+                </a>
             <div class={"slide " + props.mode}>
                 <div class={"inner-border "+ props.mode}>
                     <h2>If you would like to to learn more about my skills and experience or discuss how I can help you on a current or new project, don't hesitate to contact me.</h2>

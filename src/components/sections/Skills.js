@@ -3,12 +3,16 @@ import Title from "../Title"
 import Detail from "../Detail"
 import Skill from "../Skill"
 
+import Fade from 'react-reveal/Fade';
 
 function Skills (props) {
 
     return(
         <div className="section">
-        <a id="skills"><Title title="Skills"/></a>
+        <a id="skills">
+            <Fade left>
+                <Title title="Skills"/>
+            </Fade></a>
         <div class={"slide " + props.mode}>
             <div class={"inner-border "+ props.mode}>
             <div class="content table">

@@ -1,14 +1,24 @@
 import Title from "../Title"
 import Detail from "../Detail"
 import Project from "../Project"
+import Fade from 'react-reveal/Fade';
+import { Zoom } from "react-reveal";
 
 function Projects (props){
     return(
         <div className="section">
-            <a id="projects"><Title title="Projects"/></a>
-            <div class={"slide project " + props.mode}>
-                <div class={"inner-border "+ props.mode}>
-
+            <a id="projects">
+                <Fade left>
+                    <Title title="Projects"/>
+                </Fade></a>
+            <div className={"slide project " + props.mode}>
+                <div className={"inner-border "+ props.mode}>
+                    
+                    <Project 
+                        title="MyKitchen" 
+                        description="Pantry & Recipe Application. By allowing users to create a perosnal pantry, recipe searches become smarter by showing what the user has in the pantry or refrigerator."
+                        technologies="React | Ruby on Rails | Tailwind CSS | PostgreSQL | REST API" 
+                        image="./images/mykitchen_mockup.png"/>
                         
                     <Project 
                         title="Cribbage a Classy Care Game" 

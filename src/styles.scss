@@ -13,7 +13,7 @@ $contrastcolor: white;
 
 $palletgray: #2c3531;
 $palletblue: #116466;
-$palletbluetransparent: #11646670;
+$palletbluetransparent: #116566d4;
 $palletdarktan: #d9b08c;
 $palletlighttan: #ffcb9a;
 $palletwhite: #d1e8e2;
@@ -109,7 +109,9 @@ nav {
 //---------------------
 
 main {
-  background-image: url("background-dark.png");
+  // background-image: url("background-texture.png");
+  background-image: url("moon.jpeg");
+  background-size: auto;
   position: fixed;
   height: 100vh;
   scroll-snap-type: y mandatory;
@@ -121,7 +123,7 @@ main {
   }
   &.light {
     background-color: $palletgray;
-    background-image: url("background-light.png");
+    background-image: url("moon.jpeg");
   }
 }
 
@@ -145,6 +147,19 @@ main {
 }
 
 //---------------------
+// PAGE TITLE
+//---------------------
+.page-title {
+  font-family: "Alenia";
+  background-image: linear-gradient(to right, #353e3a00, #116466, #353e3a00);
+  padding-top: 7em;
+  font-size: 2em;
+  .main-title {
+    font-size: 2em;
+  }
+}
+
+//---------------------
 // TITLE
 //---------------------
 .title {
@@ -154,9 +169,9 @@ main {
   justify-content: left;
   align-items: center;
   position: relative;
-  background-image: linear-gradient(to right, #116466, #353e3a89);
+  background-image: linear-gradient(to right, #116466, #353e3a00);
   height: 4em;
-  width: 60%;
+  width: 90%;
 
   p {
     padding-left: 10px;
@@ -180,6 +195,7 @@ main {
 
     &.project {
       width: 80%;
+      flex-direction: row;
     }
   }
 
@@ -234,7 +250,7 @@ main {
   .content {
     font-size: 1.3em;
     text-align: left;
-    padding: 1em;
+    padding: 0.5em;
 
     &.table {
       display: flex;
@@ -287,23 +303,34 @@ main {
 }
 
 //---------------------
+// Headshot
+//---------------------
+.headshot {
+  width: 10em;
+  margin: 1em;
+  border: 3px solid $palletgray;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px $palletlighttan;
+}
+
+//---------------------
 // PROJECT
 //---------------------
 .project-div {
-  width: 100%;
+  // width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
 
-  @media (max-width: 1050px) {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
+  // @media (max-width: 1050px) {
+  //   width: 100%;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: space-between;
+  //   align-items: center;
+  // }
 
   .project-info {
     width: 50%;
@@ -345,21 +372,25 @@ main {
 // RESUME
 //---------------------
 .resume-div {
+  display: flex;
+  flex-direction: column;
   border-radius: 5px;
   margin: 3em;
   padding: 3px;
   display: flex;
   width: 90%;
-  .pdf-container {
-    box-shadow: 0px 0px 20px $palletdarktan;
-    @media (min-width: 601px) {
-      margin: 1em;
-      width: 100%;
-    }
-    @media (min-width: 601px) {
-      margin: 1em;
-      width: 80%;
-    }
+  @media (min-width: 601px) {
+    margin: 1em;
+    width: 100%;
+  }
+  @media (min-width: 601px) {
+    margin: 1em;
+    width: 80%;
+  }
+
+  img {
+    width: 100%;
+    max-width: 40em;
   }
 }
 
@@ -419,4 +450,29 @@ footer {
     @include black-text-white-bg;
     box-shadow: 0px 2px 5px $palletgray;
   }
+}
+
+//---------------------
+// SINGLE USE
+//---------------------
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.paragraph {
+  font-size: 0.25em;
+}
+
+.mb-1 {
+  margin-bottom: 1em;
 }
