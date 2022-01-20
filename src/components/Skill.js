@@ -16,16 +16,16 @@ function Skill (props){
 
     return(
         <>
-        <div onMouseEnter={(event)=> showMe(event)} onMouseLeave={(event)=> hideMe(event)}>
+        {/* <div onMouseEnter={(event)=> showMe(event)} onMouseLeave={(event)=> hideMe(event)}>
         <Rotate left>
             <Detail classText={classText} title={props.title} content={props.content}/>
-        </Rotate>
+        </Rotate> */}
         {/* {props.skill} */}
         <Zoom>
         <img src={"./images/icons/"+props.skill+".png"} alt={props.skill + " logo"} className="skill-img"/>
         </Zoom>
         
-        </div>
+        {/* </div> */}
     </>
     )
 }
