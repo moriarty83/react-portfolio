@@ -18,7 +18,7 @@ function Skill (props){
         <>
         <div onMouseEnter={(event)=> showMe(event)} onMouseLeave={(event)=> hideMe(event)}>
         <Rotate left>
-            <Detail classText={classText} content={props.content}/>
+            <Detail classText={classText} title={props.title} content={props.content}/>
         </Rotate>
         {/* {props.skill} */}
         <Zoom>
