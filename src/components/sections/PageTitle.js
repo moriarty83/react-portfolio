@@ -4,9 +4,9 @@ function PageTitle (props) {
     return(
         <div className="section mb-1 page-title">
             <div className="main-title">
-                Christopher M. Moriarty
+                Christopher Moriarty
             </div>
-            <div>
+            <div className="sub-title">
                 Software Engineer - Cellist - Astronomer
             </div>
         </div>

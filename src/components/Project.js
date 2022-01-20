@@ -1,20 +1,32 @@
+import { useState } from "react";
+import Detail from "./Detail";
 import { Zoom } from "react-reveal";
+import { Flip } from "react-reveal";
 import { Rotate } from "react-reveal";
 
-function Project(props){
+function Project (props){
+    const [classText, setClassText] = useState("detail hidden ")
+    const showMe = (event)=>{
+        setClassText("detail ");
+    }
+
+    const hideMe = (event)=>{
+        setClassText("detail hidden ")
+    }
+
     return(
-        <Rotate bottom left>
-            <div className="">
-                {/* <div className="project-info">
-                <h2>{props.title}</h2>
-                <p className="project-detail">{props.description}</p>
-                <p className="project-tech">{props.technologies}</p>
-                </div> */}
-                
-                <img src={props.image} alt="project screenshot" className="project-img" />
-                
-            </div>
+        <>
+        <div onMouseEnter={(event)=> showMe(event)} onMouseLeave={(event)=> hideMe(event)}>
+        <Rotate left>
+            <Detail classText={classText} content={props.content}/>
         </Rotate>
+        {/* {props.skill} */}
+        <Zoom>
+        <img src={"./images/projects/"+props.project+"_mockup.png"} alt={props.project + " logo"} className="project-img"/>
+        </Zoom>
+        
+        </div>
+    </>
     )
 }
 
