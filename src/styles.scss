@@ -433,9 +433,10 @@ main {
 
 .contact-div {
   height: 100%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: start;
+  flex-direction: row;
+  justify-content: space-around;
 
   img {
     height: 5em;
@@ -527,6 +528,14 @@ z-001 {
   text-align: left;
 }
 
-.p-1 {
-  padding: 1em;
+.pl-1 {
+  padding-left: 0.5em;
+}
+
+.pr-1 {
+  padding-right: 0.5em;
+}
+
+.pb-1 {
+  padding-bottom: 1em;
 }
