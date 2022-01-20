@@ -288,7 +288,6 @@ main {
 .detail {
   width: 30%;
   background-color: $palletwhite;
-  justify-self: center;
   position: absolute;
   border-radius: 5px;
   color: $palletgray;
@@ -522,4 +521,12 @@ z-09 {
 
 z-001 {
   z-index: -1;
+}
+
+.detail-text {
+  text-align: left;
+}
+
+.p-1 {
+  padding: 1em;
 }
