@@ -16,7 +16,7 @@ function Projects (props){
                 <div class="content table">
                     
                     <Project 
-                        project="MyKitchen"
+                        project="mykitchen"
                         title="MyKitchen" 
                         content="Too many times have I found a recipe online that looked like the perfect use for 
                         that piece of salmon or chicken breasts I have in the fridge, only to find the only ingredient 
