@@ -122,6 +122,10 @@ main {
   overflow-y: scroll;
   scroll-padding-block-end: 20em;
 
+  @media (max-width: 600px) {
+    scroll-padding-block-end: 25em;
+  }
+
   padding: 1em 0 1em 0;
   &.dark {
   }
@@ -286,7 +290,8 @@ main {
 // DETAIL
 //---------------------
 .detail {
-  width: 30%;
+  width: 27em;
+
   background-color: $palletwhite;
   position: absolute;
   border-radius: 5px;
@@ -296,6 +301,11 @@ main {
   opacity: 1;
   transform: scale(1, 1);
   transition: all 0.75s;
+  @media (max-width: 601px) {
+    left: 10%;
+    width: 80%;
+  }
+
   &.hidden {
     height: 0px;
     opacity: 0;

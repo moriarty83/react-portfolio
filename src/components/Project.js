@@ -17,9 +17,9 @@ function Project (props){
     return(
         <>
         <div onMouseEnter={(event)=> showMe(event)} onMouseLeave={(event)=> hideMe(event)}>
-        <Rotate left>
-            <Detail classText={classText} title={props.title} content={props.content}/>
-        </Rotate>
+        
+        <Detail classText={classText} title={props.title} content={props.content} technologies={props.technologies}/>
+        
         {/* {props.skill} */}
         <Zoom>
         <img src={"./images/projects/"+props.project+"_mockup.png"} alt={props.project + " logo"} className="project-img"/>
