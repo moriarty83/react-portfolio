@@ -48,7 +48,7 @@ function Projects (props){
                     <Project 
                         project="albatross"
                         title="Albatross" 
-                        description={<div className="pl-1 pb-1 pr-1">
+                        content={<div className="pl-1 pb-1 pr-1">
                         <p className="detail-text">A personal golf scorecard for Traditional, Putt Putt, and Disc Golfers.</p><br />
                         <p className="detail-text">Users create a library of courses, can log games and track their performance over time.</p><br />
                         <p className="detail-text">Courses can be shared with the Albatross community and contributed to the larger library of courses.</p><br />
