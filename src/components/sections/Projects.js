@@ -21,7 +21,7 @@ function Projects (props){
                         <p className="detail-text">I created the Civic Voter Companion to enable people to easily learn about their elected officials.</p><br />
                         <p className="detail-text">Users can not only access offical's websites and social but link directly to their state's voter registration and election information.</p><br />
                         </div>}
-                        technologies="Swift | Firebase Auth | Firestore DB | iOS | Headless API" 
+                        technologies="Swift | Firebase Auth | Firestore DB | iOS" 
                         image="./images/sol_trivia_mockup.jpg"/>
                     <Project 
                         project="mykitchen"

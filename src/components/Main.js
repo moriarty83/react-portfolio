@@ -16,12 +16,8 @@ const Main = (props) =>{
     return(
         <main className={props.mode}>
             <PageTitle className="section" mode={props.mode} id="pageTitle"/>
-
-            
             <About className="section" mode={props.mode} id="about"/> 
-            
             <Skills className="section" mode={props.mode} id="skills"/>
-            
             <Projects className="section" mode={props.mode} />
             <Resume className="section" mode={props.mode} />
             <Contact className="section" mode={props.mode} />
