@@ -120,7 +120,9 @@ main {
   height: 100vh;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
-  scroll-padding-block-end: 20em;
+  @media (min-width: 601px) {
+    scroll-padding-block-end: 20em;
+  }
 
   @media (max-width: 600px) {
     scroll-padding-block-end: 50em;
