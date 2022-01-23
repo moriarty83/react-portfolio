@@ -16,7 +16,7 @@ function Resume (props){
             <div className={"inner-border "+ props.mode}>
                 <Fade bottom>
                     <div className="resume-div">
-                        <h2>Click To View</h2>
+                        <h2><a target="_blank" href='./Resume.pdf'>Click To Download</a></h2>
                         <a target="_blank" href='./Resume.pdf'><img src='Resume.jpg' alt="C. Moriarty Resume" /></a>
                     </div>
                 </Fade>
