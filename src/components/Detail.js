@@ -12,6 +12,7 @@ function Detail (props) {
                 <br/>
                 {props.content}
                 <p className={"detail-text pl-1 pr-1 pb-1 " + props.mode}></p>
+                <a className={"detail-text pl-1 pr-1 pb-1 mb-1 " + props.mode} target="_blank" href={props.url}>{props.viewOn}</a>
             </div>
             </Zoom>
         </div>

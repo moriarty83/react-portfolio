@@ -18,7 +18,7 @@ function Project (props){
         <>
         <div onMouseEnter={(event)=> showMe(event)} onMouseLeave={(event)=> hideMe(event)}>
         
-        <Detail classText={classText} title={props.title} content={props.content} technologies={props.technologies}/>
+        <Detail classText={classText} title={props.title} content={props.content} url={props.url} viewOn={props.viewOn} technologies={props.technologies}/>
         
         {/* {props.skill} */}
         <Zoom>
