@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header mode="dark" />
       <Main mode="dark" />
-      <Footer ></Footer>
+      <Footer mode="dark"/>
     </div>
   );
 }

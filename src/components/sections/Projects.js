@@ -18,8 +18,9 @@ function Projects (props){
                         project="civic"
                         title="Civic Voter Companion" 
                         content={<div className="pl-1 pb-1 pr-1">
-                        <p className="detail-text">I created the Civic Voter Companion to enable people to easily learn about their elected officials.</p><br />
-                        <p className="detail-text">Users can not only access offical's websites and social but link directly to their state's voter registration and election information.</p><br />
+                        <p className="detail-text">Civic engagement is of great interest and importance to me. This drove me to create the Civic Voter Companion to enable people to easily learn about their elected officials and find out how to vote and become involved in government.</p><br />
+                        <p className="detail-text">Using this app, can not only access offical's websites and social media profiles but link directly to their state's voter registration and election information.</p><br />
+                        <p className="detail-text">When a user's address matches that of an upcoming election, they can also see what offices are up for election and/or questions will be on the ballot.</p><br />
                         <a className="detail-text" target="_blank" href="https://apps.apple.com/us/app/civic-voting-companion/id1606433760">View on the AppStore</a>
 
                         </div>}
@@ -69,7 +70,7 @@ function Projects (props){
                         title="Red Planet Rover Images" 
                         content={<div className="pl-1 pb-1 pr-1">
                         <p className="detail-text">Made as my final project for HarvardX's Intro to Computer Science course, Red Planet Rover Images uses Nasa's Mars Rover API to find images from the Spirit, Curiosity, & Opportunity Rovers.</p><br />
-                        <p className="detail-text">Complete with user registration and authentication users are able to create their own library of favorite images from all three rovers and </p><br />
+                        <p className="detail-text">Complete with user registration and authentication users are able to create their own library of favorite images from all three rovers and suggestions for interesting dates to look at.</p><br />
                         <a className="detail-text" target="_blank" href="https://github.com/moriarty83/red-planet-rover">View on GitHub</a>
                         </div>}
                         description="Made as my final project for HarvardX's Intro to Computer Science course, Red Planet Rover Images uses Nasa's Mars Rover API to let users lookup and create a gallery of images from the Spirit, Curiosity, & Opportunity Rovers."
