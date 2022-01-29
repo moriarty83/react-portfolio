@@ -31,7 +31,7 @@ function Projects (props){
                         project="mykitchen"
                         title="MyKitchen" 
                         content={<div className="pl-1 pb-1 pr-1">
-                            <p className="detail-text">Too many times have I found a recipe online that looked like the perfect use for that piece of salmon or chicken breasts I have in the fridge, only to find the only ingredient I had to make the dish was that piece of chicken or fish.</p><br />
+                            <p className="detail-text">Too many times have I found a recipe online that looked like the perfect use for that piece of salmon I have in the fridge, only to find the only ingredient I had to make the dish was that piece of fish.</p><br />
                             <p className="detail-text">MyKitchen is a Pantry & Recipe Application to address this issue. Powered by the Edemam Recipe and Food API, users not only search for recipes, but are able to create a personal pantry of items they regularly have on hand. </p><br />
                             <p className="detail-text">This makes recipe searches smarter; by showing users what they already have the pantry or refrigerator.</p>
                             <a className="detail-text" target="_blank" href="https://my-kitchen-site.netlify.app/">View Site</a>
