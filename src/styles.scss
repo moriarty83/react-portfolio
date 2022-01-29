@@ -469,6 +469,9 @@ footer {
   justify-content: space-around;
   height: 4em;
   align-items: center;
+  background-color: $palletblue;
+  box-shadow: -1px -1px 3px $palletdarktan;
+  color: $palletwhite;
 
   img {
     height: 3em;

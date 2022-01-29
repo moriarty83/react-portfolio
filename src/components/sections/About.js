@@ -23,7 +23,7 @@ function About (props) {
                                 I’m a Software Engineer with a background in Business Management and Customer Experience.
                                 </div>
                                 <div class="content">
-                                Thanks to my extensive experience in e-commerce and nonprofit organizations, I approach each project with an empathetic and user-focused perspective. By coupling analytical skills with a love of learning, I am able to solve complex and systematic problems in my pursuit of building unique and empowering experiences that inspire joy and wonder.
+                                Thanks to my extensive experience in e-commerce and nonprofit organizations, I approach each project with an empathetic and user-focused perspective. By coupling analytical skills with a love of learning, I am able to solve complex and systematic problems in my pursuit of building unique and empowering experiences.
                                 </div>
                                 <div class="content">
                                 I have been privileged to play cello with the Cambridge Symphony Orchestra and the Reading Symphony Orchestra. It has been an honor to be a member of these organizations; made up of people who prize teamwork, creativity, compassion and inclusion. 
