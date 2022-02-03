@@ -13,7 +13,7 @@ function Projects (props){
                 </Fade></a>
             <div className={"slide project " + props.mode}>
                 <div className={"inner-border "+ props.mode}>
-                <div class="content table">
+                <div className="content table">
                 <Project 
                         project="civic"
                         title="Civic Voter Companion" 

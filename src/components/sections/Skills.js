@@ -13,9 +13,9 @@ function Skills (props) {
             <Fade left>
                 <Title title="Skills"/>
             </Fade></a>
-            <div class={"slide " + props.mode}>
-                <div class={"inner-border "+ props.mode}>
-                    <div class="content table">   
+            <div className={"slide " + props.mode}>
+                <div className={"inner-border "+ props.mode}>
+                    <div className="content table">   
                         <Skill title="Amazon Web Services" skill="aws" content="" />
                         <Skill title="C#" skill="csharp" content="My first love in programming, I've used C# extensively for Game Development" />
                         <Skill title="CSS" skill="css3" content="I'm a huge fan of pure CSS methods of making great user experiences with things like animations, transitions, sticky scrolling and more" />
