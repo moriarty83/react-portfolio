@@ -47,7 +47,7 @@ function Projects (props){
                         <p className="detail-text">A single player Cribbage game on the App Store and Google Play.</p><br />
                         <p className="detail-text">It features a full tutorial, pleasant graphics, 3 levels of difficulty, and an adorable AI Turtle as your opponent.</p><br />
                         <p className="detail-text">This was my first coding project and something I'm still very proud of both by the final product and the amount of hard work, learning and discovery that went into it.</p><br />
-                        <a className="detail-text" target="_blank" href="https://apps.apple.com/us/app/cribbage-a-classy-card-game/id1521767830">View on the AppStore</a>
+                        <a className="detail-text detail-link" target="_blank" href="https://apps.apple.com/us/app/cribbage-a-classy-card-game/id1521767830">View on the AppStore</a>
 
                         </div>}
                         technologies="C# | Unity | GooglePlay | AppStore" 
