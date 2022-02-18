@@ -28,6 +28,19 @@ function Projects (props){
                     />
 
                     <Project 
+                        project="outta-pocket"
+                        title="Outta Pocket" 
+                        content={<div className="pl-1 pb-1 pr-1">
+                            <p className="detail-text">Outta Pocket is the product of working closely with a team of UX Designers for the General Assembly February 2022 Outcomes Hackathon.</p><br />
+                            <p className="detail-text">An original content platform, Outta Pocket aims to provide an informative and safe place for people to learn how to take control of their financial future. </p><br />
+                            <p className="detail-text">My responsibilities included, Version Control, reconciling merge conflcits and developing major aspects of the front-end functionality, it was a pleasure to deliver a great application in fewer than 72 hours.</p>
+                            <a className="detail-text" target="_blank" href="https://outta-pocket.netlify.app/">View Site</a>
+
+                            </div>}
+                        technologies="React | Express | MongoDB | Node.JS | Vimeo" 
+                    />
+
+                    <Project 
                         project="mykitchen"
                         title="MyKitchen" 
                         content={<div className="pl-1 pb-1 pr-1">

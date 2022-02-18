@@ -294,6 +294,7 @@ main {
 //---------------------
 .detail {
   width: 27em;
+  height: 20em;
 
   background-color: $palletwhite;
   position: absolute;
@@ -304,6 +305,7 @@ main {
   opacity: 1;
   transform: scale(1, 1);
   transition: all 0.75s;
+
   @media (max-width: 601px) {
     left: 10%;
     width: 80%;
