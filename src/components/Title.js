@@ -1,8 +1,8 @@
-import Fade from 'react-reveal/Fade';
+import { Fade } from "@stahl.luke/react-reveal";
 
-function Title (props) {
-    return(
-        
+function Title(props) {
+    return (
+
         <div className={"title " + props.mode}>
             <p>{props.title}</p>
         </div>

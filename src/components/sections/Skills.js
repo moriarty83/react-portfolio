@@ -3,19 +3,19 @@ import Title from "../Title"
 import Detail from "../Detail"
 import Skill from "../Skill"
 
-import Fade from 'react-reveal/Fade';
+import { Fade } from "@stahl.luke/react-reveal";
 
-function Skills (props) {
+function Skills(props) {
 
-    return(
+    return (
         <div className="section">
-        <a id="skills">
-            <Fade left>
-                <Title title="Skills"/>
-            </Fade></a>
+            <a id="skills">
+                <Fade left>
+                    <Title title="Skills" />
+                </Fade></a>
             <div className={"slide " + props.mode}>
-                <div className={"inner-border "+ props.mode}>
-                    <div className="content table">   
+                <div className={"inner-border " + props.mode}>
+                    <div className="content table">
                         <Skill title="Amazon Web Services" skill="aws" content="" />
                         <Skill title="C#" skill="csharp" content="My first love in programming, I've used C# extensively for Game Development" />
                         <Skill title="CSS" skill="css3" content="I'm a huge fan of pure CSS methods of making great user experiences with things like animations, transitions, sticky scrolling and more" />
