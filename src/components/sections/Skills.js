@@ -1,5 +1,4 @@
 import Title from "../Title";
-import Detail from "../Detail";
 import Skill from "../Skill";
 
 import { Fade } from "@stahl.luke/react-reveal";
